@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Login </title>
+    <link href="files/img/favicon.png" rel="icon"> 
+    <link type="text/css" href="files/css/bootstrap.css" rel="stylesheet">
+    <link type="text/css" href="files/css/font-awesome.min.css" rel="stylesheet">
+    <link type="text/css" href="files/css/btc.css" rel="stylesheet">
+    <link type="text/css" href="files/css/flexslider.css" rel="stylesheet">
+    <script type="text/javascript" src="files/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="files/js/bootstrap.min.js"></script>
 </head>
-<body>
-    <H1>EVERYTHING LOGIN PAGE GOES HERE</H1>
+
+<body id="home">
+
+<nav class="navbar navbar-expand-lg fixed-top" id="header" >
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./"><img src="files/img/logo.png" height="40" width="auto" class="img-responsive"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav" >
+                <li><a class="nk scroll" href="./"> HOME </a></li>
+                <li><a class="nk scroll" href="./#why"> WHY NOW </a></li>
+                <li><a class="nk scroll" href="./#testimonials"> TESTIMONIALS </a></li>
+                <li><a class="nk btn btn_green" href="./signup.html">GET STARTED</a></li>
+                <li><a class="nk btn" href="./login.html"> LOGIN </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="supertop login">
+    <div class="thin">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="supertext login_box">                            
+                    <h2>Login</h2>
+                    <div class="myerror"></div>
+                    <form method="POST" action="">
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="email" class="form-control" placeholder="Enter your Email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="password" class="form-control" placeholder="Enter your Password">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="submit" class="btn" value="LOGIN">
+                            </div>
+                        </div>
+                        <a href="" class="link">Recover Password</a> 
+                    </form>
+                </div>
+            </div>  
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="files/js/scripts.js"></script>
+<script type="text/javascript" src="files/js/scroll/custom.js"></script>
+<script type="text/javascript" src="files/js/scroll/jquery.flexslider.js"></script>
+<script type="text/javascript" src="files/js/scroll/scrollReveal.js"></script>
+<script type="text/javascript" src="files/js/scroll/jquery.easing.min.js"></script>
+
 </body>
 </html>
